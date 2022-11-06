@@ -1,0 +1,99 @@
+\documentclass[12pt, letterpaper, titlepage]{article}
+\usepackage[left=3.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{amsmath} %pakiet matematyczny
+\usepackage{amssymb} %pakiet dodatkowych symboli
+\title{porcjowanie składników}
+\author{Damian Kowalski}
+\begin {document}
+\maketitle
+
+\newpage
+
+\begin{table}[h]
+\centering\caption{Bramka logiczna NOT}
+
+\begin {tabular}{|c|c|c|}
+\hline 
+we & wyj\\
+\hline
+0 & 1\\
+\hline
+1 & 0\\
+\hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[h]
+\centering\caption{Bramka logiczna AND}
+\begin {tabular}{|c|c|c|}
+\hline
+A & B & Wyj\\
+\hline
+0 & 1 & 0\\
+\hline
+0 & 0 & 0\\
+\hline
+1 & 1 & 1\\
+\hline
+1 & 0 & 0\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering\caption{Bramka logiczna NAND}
+\begin {tabular}{|c|c|c|}
+\hline
+A & B & Wyj\\
+\hline
+0 & 1 & 1\\
+\hline
+0 & 0 & 1\\
+\hline
+1 & 1 & 0\\
+\hline
+1 & 0 & 1\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering\caption{Bramka logiczna OR}
+\begin {tabular}{|c|c|c|}
+\hline
+A & B & Wyj\\
+\hline
+0 & 0 & 0\\
+\hline
+0 & 1 &	1\\
+\hline
+1 & 1 & 1\\
+\hline
+1 & 0 & 0\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering\caption{Bramka logiczna NOR}
+\begin {tabular}{|c|c|c|}
+\hline
+A & B & Wyj\\
+\hline
+0 & 1 & 1\\
+\hline
+0 & 0 & 1\\
+\hline
+1 & 1 & 0\\
+\hline
+1 & 0 & 1\\
+\hline
+\end{tabular}
+\end{table}
+
+\end{document}
