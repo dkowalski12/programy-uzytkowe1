@@ -1,0 +1,39 @@
+\documentclass[12pt, letterpaper, titlepage]{article}
+\usepackage[left=3.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{amsmath} %pakiet matematyczny
+\usepackage{amssymb} %pakiet dodatkowych symboli
+\title{porcjowanie składników}
+\author{Damian Kowalski}
+\begin {document}
+\maketitle
+
+\newpage
+
+\begin{table}[h]
+\centering\caption{Przykładowy system decyzyjny (U,A,d), modelujący problem diagnozy medycznej, której efektem jest decyzja lub nie wykonaniu operacji wycięcia wyrostka robaczkowego,
+U=\{u_{1},u_{2},...,u_{10}\}, A=\{a_{1},a_{2}\},d\in D=\{TAK, NIE\}}
+
+\begin {tabular}{c|ccc}
+	\hline
+	\hline
+	Pacjent & Ból brzucha & Temperatura ciała & Operacja\\
+	\hline
+	u1 & Mocny & Wysoka & Tak\\
+	u2 & Średni & Wysoka & Tak\\
+	u3 & Mocny & Średnia & Tak\\
+	u4 & Mocny & Niska & Tak\\
+	u5 & Średni & Średnia & Tak\\
+	u6 & Średni & Średnia & Nie\\
+	u7 & Mały & Wysoka & Nie\\
+	u8 & Mały & Niska & Nie\\
+	u9 & Mocny & Niska & Nie\\
+	u10 & Mały & Średnia & Nie\\
+	\hline
+	\hline
+\end{tabular}
+\end{table}
+\end{document}
